@@ -45,6 +45,7 @@ def total_even_pairs(src)
     else 
       row_index +=1
   end
+end
   return total
   
 end
