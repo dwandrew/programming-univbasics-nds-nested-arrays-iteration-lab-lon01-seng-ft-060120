@@ -9,7 +9,7 @@ def join_ingredients(src)
   pizza_toppings =[]
   row_index = 0
   while row_index< src.count do;
-    pizza_toppings.push("I love #{src[0]} and #{src[1]} on my pizza")
+    pizza_toppings.push("I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
     row_index += 1
   end
   return pizza_toppings
